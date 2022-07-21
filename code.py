@@ -14,7 +14,7 @@ df4=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/mai
 df5=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.xlsx")
 df6=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.xlsx")
 df7=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.xlsx")
-df8=pd.read_excel("Clinker_Analysis_2014_edit.xls",sheet_name="Sept 14")
+df8=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Sep14.xlsx")
 df9=pd.read_excel("Clinker_Analysis_2014_edit.xls",sheet_name="Oct 14")
 
 df=pd.concat([df1,df2,df3,df4,df5,df6,df7,df8,df9])
