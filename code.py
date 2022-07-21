@@ -13,7 +13,7 @@ df3=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/mai
 df4=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.xlsx")
 df5=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.xlsx")
 df6=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.xlsx")
-df7=pd.read_excel("Clinker_Analysis_2014_edit.xls",sheet_name="July 14")
+df7=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.xlsx")
 df8=pd.read_excel("Clinker_Analysis_2014_edit.xls",sheet_name="Sept 14")
 df9=pd.read_excel("Clinker_Analysis_2014_edit.xls",sheet_name="Oct 14")
 
