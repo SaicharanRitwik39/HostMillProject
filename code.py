@@ -7,15 +7,15 @@ from sklearn.model_selection import train_test_split
 st.header("Prediction of C3S,C2S,C3A and C4AF")
 
 
-df1=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Jan14.xlsx")
-df2=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Feb14.xlsx")
-df3=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.xlsx")
-df4=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.xlsx")
-df5=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.xlsx")
-df6=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.xlsx")
-df7=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.xlsx")
-df8=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Sep14.xlsx")
-df9=pd.read_excel("https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Oct14.xlsx")
+df1=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Jan14.xlsx')
+df2=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Feb14.xlsx')
+df3=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.xlsx')
+df4=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.xlsx')
+df5=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.xlsx')
+df6=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.xlsx')
+df7=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.xlsx')
+df8=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Sep14.xlsx')
+df9=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Oct14.xlsx')
 
 df=pd.concat([df1,df2,df3,df4,df5,df6,df7,df8,df9])
 
