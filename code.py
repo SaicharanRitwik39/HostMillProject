@@ -7,15 +7,15 @@ from sklearn.model_selection import train_test_split
 st.header("Prediction of C3S,C2S,C3A and C4AF")
 
 
-df1=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Jan14.csv', error_bad_lines = False, header=None)
-df2=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Feb14.csv', error_bad_lines = False, header=None)
-df3=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.csv', error_bad_lines = False, header=None)
-df4=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.csv', error_bad_lines = False, header=None)
-df5=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.csv', error_bad_lines = False, header=None)
-df6=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.csv', error_bad_lines = False, header=None)
-df7=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.csv', error_bad_lines = False, header=None)
-df8=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Sep14.csv', error_bad_lines = False, header=None)
-df9=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Oct14.csv', error_bad_lines = False, header=None)
+df1=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Jan14.csv', header=None)
+df2=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Feb14.csv', header=None)
+df3=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.csv', header=None)
+df4=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.csv', header=None)
+df5=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/May14.csv', header=None)
+df6=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/June14.csv', header=None)
+df7=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/July14.csv', header=None)
+df8=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Sep14.csv', header=None)
+df9=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Oct14.csv', header=None)
 
 df=pd.concat([df1,df2,df3,df4,df5,df6,df7,df8,df9])
 
