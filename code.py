@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 st.header("Prediction of C3S,C2S,C3A and C4AF")
 
 
-df1=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Jan14.xlsx')
+df1=pd.read_csv('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.csv')
 df2=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Feb14.xlsx')
 df3=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Mar14.xlsx')
 df4=pd.read_excel('https://github.com/SaicharanRitwik39/HostMillProject/blob/main/Apr14.xlsx')
